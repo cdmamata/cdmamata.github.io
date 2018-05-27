@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+ 
+*{margin:0;padding:0;}
+html,body{min-width:1024px;width:100%;border:0;}
+img{border:0;}
+#box{
+	margin:0 auto;
+	width:100%;
+}
+a{text-decoration:none;cursor: pointer;}
+.backToTop{width: 50px; height: 50px; display: block; background:url("../img/fhdb-.png") no-repeat;position: fixed; right:35px; margin-left: 490px; bottom: 125px; z-index:999;}
+.backToTop:hover{ background:url("../img/fhdb.png") no-repeat;}
+*html .backToTop {position: absolute; left: 50%; margin-left: 500px; z-index: 10000; bottom:auto;
+	top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-125-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));}
+
+
+	#head{
+		width:100%;height:95px;border-bottom:1px solid #bbb;padding-top:27px;margin-bottom:30px;
+		-webkit-box-shadow:0px 4px 7px #eee;
+		-moz-box-shadow:0px 4px 7px #eee;
+	}
+	#head_1{width:1024px;height:95px;margin:0 auto;}
+		.logo{background:url(../img/logo.png) no-repeat;width:142px;margin-left:10px;height:80px;float:left;}
+		.title{width:430px;height:80px;float:left;padding-top:20px;margin-left:300px;}
+			.title a{font-size:18px;font-family:黑体;color:#000;margin-left:30px;font-color:#000;}
+		.name{width:70px;height:80px;padding-top:20px;font-family:黑体;font-size:18px;float:left;margin-left:60px;}
+
+#footer{
+		width:100%;height:100px;background:#000;padding-top:20px;
+	}
+		#footer_con{width:1024px;margin:0 auto;}
+		.tb1{width:280px;height:100px;margin-left:100px;float:left;}
+		.tb1 img,.tb2 img{width:60px;height:60px;margin-left:90px;display:block;zoom:1;filter:alpha(opacity=95); -moz-opacity:0.95; opacity:0.95;}
+		.tb1 p{color:#fef0ee;font-family:Arial;font-size:12px;padding:7px 0 0 66px;}
+		.tb2{width:230px;height:100px;float:left;}
+		.tb2 p{color:#fef0ee;font-family:Arial;font-size:12px;padding:7px 0 0 80px;}
+		.tb3{float:left;width:100px;height:70px;margin:15px 0 0 140px;}
+		.tb3 img{width:110px;height:50px;border:0;zoom:1;filter:alpha(opacity=92); -moz-opacity:0.92; opacity:0.92;}
