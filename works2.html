@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <title>works2</title>
     <link type="text/css" rel="stylesheet" href="css/topBottom.css"></link>
-    <link type="text/css" rel="stylesheet" href="css/content.css"></link>
+    <link rel="stylesheet" href="css/w1banner.css" type="text/css">
 </head>
 <body>
-<div id="box">
+<div id="box" style="clear: both;">
     <div class="scroll" id="scroll">
         <a href="#" class="backToTop">&nbsp;</a>
     </div>
@@ -18,48 +18,42 @@
             </a>
             <div class="title">
                 <a href="index.html"  style="color:#cecece;">首页</a>
-                <a href="works1.html"  target="_blank" style="color:#cecece;">作品1</a>
-                <a href="works2.html">作品2</a>
-                <a href="works3.html" target="_blank" style="color:#cecece;">作品3</a>
-                <a href="cv.html" target="_blank" style="font-family:黑体;color:#cecece;">个人简历</a>
+                <a href="works1.html"  style="color:#cecece;">宣传品</a>
+                <a href="works2.html">UI设计</a>
+                <a href="works3.html" style="color:#cecece;">吉祥物</a>
+                <a href="cv.html" target="_blank" style="font-family:黑体;color:#cecece;">简历</a>
             </div>
             <div class="name"><b>宋宜晓</b></div>
         </div>
     </div>
 
-    <div id="content" style="height:500px;">
-        <div id="content_a">
-            <p class="up">&nbsp;&nbsp;&nbsp;&nbsp;北京海源德贸有限公司&nbsp;&nbsp;&nbsp;&nbsp;2014.6 - 2016.7</p>
-        </div>
+    <div id="content" style="">
+        <script type="text/javascript" src="js/page.js"></script>
+        <ul class="content_1top" >
+            <li id="page1" onclick="myclick(1)" onclick="javascript:scroll(0,0)" style="cursor:pointer;background:#fff;border:1px solid #000;border-bottom:#fff;color:#000;">UI</li>
+            <li id="page2" onclick="myclick(2)" onclick="javascript:scroll(0,0)" style="cursor:pointer;">电商</li>
+            <li id="page3" onclick="myclick(3)" onclick="javascript:scroll(0,0)" style="cursor:pointer;">电商</li>
+        </ul>
         <div id="content_1">
-            <a href="works2/w2banner.html">
-                <div class="tu1">
-                    <div class="tu1_1"><img src="img/works2/w2-2.jpg"></div>
-                    <div class="tu1_2">Banner</div>
-                </div>
-            </a>
-            <div class="tu2">
-                <a href="works2/w2Web.html">
-                    <div class="tu1_1"><img src="img/works2/w2-1.jpg"></div>
-                    <div class="tu1_2">Web页面</div>
-                </a>
+            <div class="page1_1" id="tab1_content">
+                <img src="img/works2/ad4.jpg"/>
+                <img src="img/works2/ad5.jpg"/>
             </div>
-            <div class="tu3">
-                <a href="works2/w2xqy.html">
-                    <div class="tu1_1"><img src="img/works2/w2-3.jpg"></div>
-                    <div class="tu1_2">详情页</div>
-                </a>
+            <div class="page1_1 hi" id="tab2_content">
+                <img src="img/works2/ad6.jpg"/>
+
             </div>
-            <div class="tu4">
-                <a href="works2/w2gzt.html">
-                    <div class="tu1_1"><img src="img/works2/w2-4.jpg"></div>
-                    <div class="tu1_2">各种图</div>
-                </a>
+            <div class="page1_1 hi" id="tab3_content">
+                <img src="img/works2/ad7.jpg"/>
+
             </div>
+
         </div>
     </div>
 
-    <div id="footer">
+
+
+    <div id="footer" style="">
         <div id="footer_con">
             <div class="tb1">
                 <img src="img/tb2.png" >
@@ -77,5 +71,6 @@
         </div>
     </div>
 </div>
+
 </body>
 </html>

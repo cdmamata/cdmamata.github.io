@@ -10,12 +10,12 @@ var myclick = function(v) {
                 lli.style.backgroundColor = "#fff";
                 lli.style.color="#000";
                 lli.style.border="1px solid #000";
-                lli.style.borderBottom="#fff";
+                lli.style.border.Bottom="#000";
             } else {
                 lli.style.backgroundColor = "#000";
                 lli.style.color="#fff";
-                lli.style.border="1px solid #fff";
-                lli.style.borderBottom="#000";
+                lli.style.border="1px solid #000";
+                lli.style.border.Bottom="#000";
             }
         }
 

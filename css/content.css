@@ -1,13 +1,12 @@
 #content{
-    width:1024px;margin:0 auto;
-
+    width:1280px;margin:0 auto;
 }
-#content_a{width:1024px;height:50px;margin-bottom:24px;}
-.up{width:1024px;height:35px;font-family:华文细黑;font-size:14px;color:#efffef;line-height:35px;background:#000;}
+#content_a,#content_b{width:1024px;height:50px;margin-bottom:24px;}
+.up{width:1280px;height:35px;font-family:华文细黑;font-size:14px;color:#efffef;line-height:35px;background:#000;}
 
 
-.content_1,.content_2{width:1024px;}
-.tu1,.tu2,.tu3,.tu4,.tu5{width:240px;height:270px;float:left; margin-bottom:18px; }
+.content_1,.content_2,.content_3{width:1280px;}
+.tu1,.tu2,.tu3,.tu4,.tu5{width:240px;height:270px;float:left;margin-bottom:18px;}
 .tu1,.tu2,.tu3,.tu5{margin-right:18px;}
 .tu1_1{width:240px;height:240px;}
 .tu1_2{width:240px;height:30px;font-family:黑体;line-height:30px;color:#fef0ee;font-size:14px;text-align:center;background:#000;}
